@@ -4,4 +4,14 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Controls\" />
+    <Folder Include="ViewModels\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\LockProject\00\LockSolution\Mawa.Lock\Mawa.Lock.csproj" />
+    <ProjectReference Include="..\..\..\..\RandomProject\00\RandomSolution\Mawa.Random\Mawa.Random.csproj" />
+  </ItemGroup>
+
 </Project>
